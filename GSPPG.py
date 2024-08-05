@@ -124,7 +124,7 @@ class MainWindow(QMainWindow):
 
         self.plot_color = new_color
 
-
-app = QApplication(sys.argv)
-w = MainWindow()
-app.exec()
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    w = MainWindow()
+    app.exec()
