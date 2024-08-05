@@ -2,7 +2,11 @@
 
 Just a simple python app I made to generate images in the style of the default GitHub profile pictures. 
 
-GUI made using PyQT6. You can adjust the dimensions of the images, from 3x3 pixels up to 100x100 pixels. GitHub seems to use a 5x5 pixel grid so that is set as the default here. The color of the image can be changed using PyQT's ColorDialog. To save the image, click the floppy disk icon in the menu bar.
+![GSPPG Preview](https://github.com/user-attachments/assets/9fade441-aba7-48c6-afb0-5b5880df34ac)
+
+You can adjust the dimensions of the images, from 3x3 pixels up to 100x100 pixels. GitHub seems to use a 5x5 pixel grid so that is set as the default here. The color of the image can be changed using PyQT's ColorDialog. To save the image, click the floppy disk icon in the menu bar.
+
+GUI made using PyQT6. 
 
 ## Prerequisites
 
@@ -18,5 +22,4 @@ GUI made using PyQT6. You can adjust the dimensions of the images, from 3x3 pixe
  
 3. Run the app
 
-       python3 
-)
+       python3 GSPPG.py
