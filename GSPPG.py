@@ -4,8 +4,8 @@ from matplotlib.backends.backend_qtagg import (
     FigureCanvasQTAgg,
     NavigationToolbar2QT as NavigationToolbar,
 )
-from PyQt6 import QtGui
-from PyQt6.QtWidgets import (
+from PySide6 import QtGui
+from PySide6.QtWidgets import (
     QMainWindow,
     QVBoxLayout,
     QWidget,
